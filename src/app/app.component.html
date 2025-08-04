@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Coimbatore Sparks Rotaract Club</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header" class="header d-flex align-items-center sticky-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <img src="assets/images/logo.JPG" alt="Logo" />
+          <h1 class="sitename">Rotaract Sparks</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#activities">Activities</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+        <a class="btn-getstarted" href="#contact">Reach Us</a>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="container">
+          <div class="row gy-4">
+            <div
+              class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center"
+            >
+              <h1>Rotract Club of Coimbatore Sparks</h1>
+              <p>Wings of Change - Empowering Youth for a Brighter Tomorrow</p>
+              <div class="d-flex">
+                <a href="#about" class="btn-get-started">Join Us</a>
+                <a
+                  href="assets/videos/TeamIntro.mp4"
+                  class="btn-watch-video d-flex align-items-center"
+                  target="_blank"
+                  ><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+              </div>
+            </div>
+            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+              <div
+                class="position-relative d-inline-block custom-image-wrapper"
+              >
+                <span class="circle-bg"></span>
+                <span class="circle-overlay"></span>
+                <img
+                  src="assets/images/team.jpg"
+                  alt="Hero"
+                  class="img-fluid custom-shaped-img animated"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Featured activities Section -->
+      <section id="featured-activities" class="featured-activities section">
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 d-flex">
+              <div class="service-item position-relative">
+                <div class="icon"><i class="bi bi-activity icon"></i></div>
+                <h4><a href="" class="stretched-link">Vision</a></h4>
+                <p>
+                  Rotaract Club Vision is to empower youth to create positive
+                  change in their communities through service, leadership, and
+                  cultural exchange.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 d-flex">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles icon"></i>
+                </div>
+                <h4>
+                  <a href="" class="stretched-link">Community Connection</a>
+                </h4>
+                <p>
+                  We connect with the community through service projects,
+                  leadership training, and cultural exchange to uplift and
+                  empower youth.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 d-flex">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week icon"></i>
+                </div>
+                <h4><a href="" class="stretched-link">Activities</a></h4>
+                <p>
+                  Rotaract Club of Coimbatore Sparks engages in a variety of
+                  activities that empower youth and uplift communities.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /Featured activities Section -->
+
+      <!-- About Section -->
+      <section id="about" class="about section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <span>About Us<br /></span>
+          <h2>About</h2>
+          <p>
+            The Coimbatore Sparks Rotaract Club is a youth-led initiative
+            committed to community service, leadership training, and cultural
+            exchange.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-6 position-relative align-self-start">
+              <div
+                class="video-wrapper bg-light rounded-4 p-4 shadow position-relative"
+              >
+                <div class="ratio ratio-16x9 rounded-3 overflow-hidden">
+                  <iframe
+                    width="100%"
+                    height="100%"
+                    [src]="videoUrl"
+                    title="Rotract Club Video"
+                    frameborder="0"
+                    allow="autoplay; encrypted-media"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+                <a
+                  href="assets/videos/TeamIntro.mp4"
+                  target="_blank"
+                  class="play-btn position-absolute top-50 start-50 translate-middle"
+                ></a>
+              </div>
+            </div>
+
+            <div class="col-lg-6 content">
+              <h3>Who We Are</h3>
+              <p class="fst-italic">
+                We are a dynamic group of young individuals dedicated to making
+                a difference in our community through service projects,
+                leadership training, and cultural exchange.
+              </p>
+              <ul>
+                <li>
+                  <i class="bi bi-check2-all"></i>
+                  <span
+                    >Rotaract Club of Coimbatore Sparks is a youth-led
+                    initiative</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check2-all"></i>
+                  <span
+                    >Voluntary service organization focused on community</span
+                  >
+                </li>
+                <li>
+                  <i class="bi bi-check2-all"></i>
+                  <span
+                    >We are a part of the global Rotaract community, Society
+                    well being service project</span
+                  >
+                </li>
+              </ul>
+              <p>
+                Led by our Director, we engage in projects prioritized by
+                Rotaract District 3201 to address the community's most pressing
+                needs, creating a wider impact across our region
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /About Section -->
+
+      <!-- activities Section -->
+      <section id="activities" class="activities section light-background">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <span>Our Activities</span>
+          <h2>activities</h2>
+          <p>
+            Rotaract Club of Coimbatore Sparks engages in a variety of
+            activities that empower youth and uplift communities.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-activity"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Community Service</h3>
+                </a>
+                <p>
+                  Organizing blood donation camps, tree plantations, and
+                  clean-up drives.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-broadcast"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Skill Development</h3>
+                </a>
+                <p>
+                  Workshops and seminars to build leadership and career skills
+                  among youth.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-easel"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Networking Events</h3>
+                </a>
+                <p>
+                  Connecting with Rotaractors across India for fellowship and
+                  fun activities.
+                </p>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-bounding-box-circles"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Cultural Exchange</h3>
+                </a>
+                <p>
+                  Promoting cultural understanding and collaboration through
+                  exchange programs and events.
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-calendar4-week"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Voluntary Service</h3>
+                </a>
+                <p>
+                  Engaging in community service projects to make a positive
+                  impact and contribute to society.
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="service-item position-relative">
+                <div class="icon">
+                  <i class="bi bi-chat-square-text"></i>
+                </div>
+                <a href="#" class="stretched-link">
+                  <h3>Club Service</h3>
+                </a>
+                <p>
+                  Strengthening our club's spirit through fellowship and
+                  team-building activities
+                </p>
+                <a href="#" class="stretched-link"></a>
+              </div>
+            </div>
+            <!-- End Service Item -->
+          </div>
+        </div>
+      </section>
+      <!-- /activities Section -->
+
+      <!-- Team Section -->
+      <section id="team" class="team section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <span>Rotaract Team</span>
+          <h2>Team</h2>
+          <p>
+            Our Rotaract team is dedicated to making a difference in the
+            community through service, leadership, and cultural exchange.
+          </p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/images/gopika.JPG"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Rtr. Gopika</h4>
+                  <span>President</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/images/sab.JPG"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Rtr. Sabarishwar</h4>
+                  <span>Secretary</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+
+            <div class="col-lg-4 col-md-6">
+              <div class="member">
+                <div class="pic">
+                  <img
+                    src="assets/images/harsh.JPG"
+                    class="img-fluid"
+                    alt=""
+                  />
+                </div>
+                <div class="member-info">
+                  <h4>Rtr. Harshitha</h4>
+                  <span>Secretary</span>
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter-x"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Team Member -->
+          </div>
+        </div>
+      </section>
+      <!-- /Team Section -->
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact section">
+        <!-- Section Title -->
+        <div class="container section-title">
+          <span>Reach Us</span>
+          <h2>Contact</h2>
+          <p>Want to know more or join the Coimbatore Sparks Rotaract Club?</p>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div class="row gy-4">
+            <div class="col-lg-5">
+              <div class="info-wrap">
+                <div class="info-item d-flex">
+                  <i class="bi bi-geo-alt flex-shrink-0"></i>
+                  <div>
+                    <h3>Address</h3>
+                    <p>5/46-4, Sri Hari Gardens
+                      JN Palayam,Thoppampatti Pirivu, Coimbatore - 641017 
+                   </p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-telephone flex-shrink-0"></i>
+                  <div>
+                    <h3>Call Us</h3>
+                    <p>+91 9597913807</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <div class="info-item d-flex">
+                  <i class="bi bi-envelope flex-shrink-0"></i>
+                  <div>
+                    <h3>Email Us</h3>
+                    <p>sparksrotaract&#64;gmail.com</p>
+                  </div>
+                </div>
+                <!-- End Info Item -->
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.064591114506!2d76.95530537482066!3d11.016844192160073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba859b41c41d6cb%3A0xafe08228c3623e51!2sCoimbatore%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1722364702332!5m2!1sen!2sin"
+                  frameborder="0"
+                  style="border: 0; width: 100%; height: 270px"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+
+            <div class="col-lg-7">
+              <form
+                action="forms/contact.php"
+                method="post"
+                class="contact-form"
+              >
+                <div class="row gy-4">
+                  <div class="col-md-6">
+                    <label for="name-field" class="pb-2">Your Name</label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name-field"
+                      class="form-control"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="email-field" class="pb-2">Your Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email-field"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="subject-field" class="pb-2">Subject</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject-field"
+                      required=""
+                    />
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="message-field" class="pb-2">Message</label>
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="10"
+                      id="message-field"
+                      required=""
+                    ></textarea>
+                  </div>
+
+                  <div class="col-md-12 text-center">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">
+                      Your message has been sent. Thank you!
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!-- End Contact Form -->
+          </div>
+        </div>
+      </section>
+      <!-- /Contact Section -->
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+      <div class="container footer-top">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="d-flex align-items-center logo">
+              <img src="assets/images/logo.JPG" alt="Logo" />
+              <span class="sitename">Rotaract Sparks</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Thirumalai Nagar, Coimbatore,</p>
+              <p>Tamil Nadu, TN 641045</p>
+              <p class="mt-3">
+                <strong>Phone:</strong> <span>+91 00 0000 55</span>
+              </p>
+              <p>
+                <strong>Email:</strong>
+                <span>sparksrotaract&#64;gmail.com</span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#about">About us</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#activities">Activities</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Our activities</h4>
+            <ul>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Social Work</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Public Relations</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i>
+                <a href="#">Student Development</a>
+              </li>
+              <li>
+                <i class="bi bi-chevron-right"></i> <a href="#">Education</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <h4>Follow Us</h4>
+            <p>
+              Stay connected with us on social media to get the latest updates
+              and news about our activities and events.
+            </p>
+            <div class="social-links d-flex">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Rotaract Sparks</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+    </footer>
+    <!-- /Footer -->
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
