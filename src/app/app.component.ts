@@ -5,7 +5,7 @@ declare var bootstrap: any;
 
 @Component({
   selector: 'app-root', 
-  templateUrl: './app.component.html',
+  templateUrl: './app.component.html',  
 }) 
 export class AppComponent {
   title = 'Coimbatore Sparks Rotaract';
